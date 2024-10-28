@@ -1,0 +1,77 @@
+body {
+  background-color: #f5faf6;
+  font-family: "Montserrat", sans-serif;
+  color: #526355;
+  font-size: 1em;
+  line-height: 25px;
+}
+
+#linkedin {
+  color: #526355;
+  text-decoration: underline dotted;
+  background-color: aquamarine;
+  padding: 0.3em;
+  border-radius: 10px;
+  text-transform: lowercase;
+  margin: 0 auto;
+
+}
+
+#linkedin:hover {
+  background-color: rgb(53, 92, 65);
+  color: white
+}
+
+img {
+  width: 150px;
+  align-items: center;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+
+.container {
+  padding: 10px;
+  margin: 10px auto;
+  background-color: rgb(244, 244, 239);
+  box-shadow: 2px 2px 3px #a7aba8;
+  border-radius: 5px;
+  border-width: 0.1em;
+  width: 500px;
+  text-align: center;
+}
+
+.social-list:hover {
+  background-color: rgb(233, 186, 186);
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul > p {
+  color: green;
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 200px;
+  }
+}
